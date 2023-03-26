@@ -1,0 +1,96 @@
+.Display-Component
+{
+    height: 400px;
+    width: 100%;
+}
+
+.Display-Header
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.Submissions-all
+{
+    margin-left: 100px;
+    font-size: 20px;
+    width: 180px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-bottom:solid 4px rgba(68,146,76,255);
+}
+
+.Submissions-fav
+{
+    margin-left: 30px;
+    font-size: 20px;
+    width: 230px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Submissions-all:active
+{
+    border: none;
+    border-bottom: none;
+}
+
+.Submissions-fav:active,
+.Submissions-fav:focus
+{
+    transition-duration: 0.5s;
+    border-bottom:solid 4px rgba(68,146,76,255);
+}
+
+
+
+.Search-div
+{
+    position: relative;
+    margin-left: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: solid thin #8e8e8e;
+    border-radius: 10px;
+}
+
+.Search
+{
+    border:none;
+    width: 240px;
+    height: 18px;
+    font-size:18px;
+    margin-left: 10px;
+}
+
+#Search-icon
+{   
+    margin-top: 3px;
+    margin-left: 15px;
+    font-size: 25px;
+    height: 100%;
+    color: #8e8e8e;
+
+}
+
+.Search:focus
+{
+    outline: none;
+}
+
+.Select
+{
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #8e8e8e;
+}
